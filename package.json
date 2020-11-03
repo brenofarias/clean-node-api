@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll",
-    "test:staged": "jest --passWithNoTets"
+    "test": "jest --watchAll --noStackTrace",
+    "test:staged": "jest --passWithNoTets --findRelatedTests --silent --noStackTrace"
   },
   "standard": {
     "env": [
